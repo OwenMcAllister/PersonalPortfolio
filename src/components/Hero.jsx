@@ -23,7 +23,7 @@ const Hero = () => (
       </div>
 
       <div className="w-full md:w-auto md:ml-4 md:order-2">
-        <img src="../assets/opener.png" className="w-full h-auto relative z-[5]" />
+        <img src="/src/assets/opener.png" className="w-full h-auto relative z-[5]" />
         <div className="absolute z-0 w-1/2 h-full top-0 blue__gradient" />
       </div>
       
