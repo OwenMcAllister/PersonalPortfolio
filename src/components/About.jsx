@@ -25,30 +25,28 @@ const About = () => {
           {showUnderscore ? '_' : ''}
         </span>
       </div>
-
-      <div className="relative flex flex-col md:flex-row justify-left items-center">
-        <img src="/racing.png" className="w-[75%] mt-20 h-auto relative z-[5]"/>
+      
+      <div className="relative flex flex-col xl:flex-row justify-left items-center">
+        <img src="/racing.png" className="w-full xl:w-1/2 mt-20 h-auto relative z-5 max-w-[600px] xl:max-w-none"/>
         <div className="absolute z-0 w-1/2 h-full top-0 blue__gradient" />
-
-        <div className="flex flex-col items-center md:items-start md:text-left">
-
+      
+        <div className="flex flex-col items-center md:items-start md:text-left xl:w-1/2 xl:pl-12">
           <h2 className="font-poppins font-semibold md:text-[50px] sm:text-[40px] leading-[70px] md:leading-[90px] text-white mb-2 md:mb-0">
             <span className="text-gradient">
               Cars to Code:
             </span>{" "}
           </h2>
-
           <p className="font-poppins text-[30] text-white max-w-[1500px]">
-          I began racing go-karts at a national level at age 9, and when I was 14, transitioned from karts to cars. 
-          Between 2019 and 2022 I pursued a seat in a pro-series, and in my final year of racing won the NP-01 Nation Championship at Laguna Seca, and
-          won in my class at the 25-hours of Thunderhill. I also hold track records at Mid-Ohio, Utah Motorsports Complex,
-          and Sebring. What I loved about motorsports, was that through that one sport, I was exposed to advanced marketing, engineering,
-          and computer science topics. When I was 15, I built and programmed a set of tire temperature transducers with radio telemetry,
-          and through this project was introduced to the world of computer science, which eventually transformed into a passion in and of itself.
+            I began racing go-karts at a national level at age 9, and when I was 14, transitioned from karts to cars. 
+            Between 2019 and 2022 I pursued a seat in a pro-series, and in my final year of racing won the NP-01 Nation Championship at Laguna Seca, and
+            won in my class at the 25-hours of Thunderhill. I also hold track records at Mid-Ohio, Utah Motorsports Complex,
+            and Sebring. What I loved about motorsports, was that through that one sport, I was exposed to advanced marketing, engineering,
+            and computer science topics. When I was 15, I built and programmed a set of tire temperature transducers with radio telemetry,
+            and through this project was introduced to the world of computer science, which eventually transformed into a passion in and of itself.
           </p>
-
         </div>
       </div>
+
 
 
         <div className="flex flex-col items-center justify-center">
