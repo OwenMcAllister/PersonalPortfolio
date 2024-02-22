@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../style';
 
 const Hero = () => (
-  <section id="home" className={`flex flex-col justify-center items-center ${styles.paddingY}`}>
+  <section id="home" className={`flex flex-col justify-center items-center mb-[20] ${styles.paddingY}`}>
 
     <div className="relative flex flex-col md:flex-row justify-center items-center w-full max-w-screen-xl">
 
