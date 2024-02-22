@@ -27,7 +27,7 @@ const About = () => {
       </div>
       
       <div className="relative flex flex-col xl:flex-row justify-left items-center">
-        <img src="/racing.png" className="w-full xl:w-1/2 mt-20 h-auto relative z-5 max-w-[600px] xl:max-w-none"/>
+        <img src="/racing.png" className="w-full xl:w-1/2 mt-20 h-auto relative z-5 max-w-[400px] xl:max-w-none"/>
         <div className="absolute z-0 w-1/2 h-full top-0 blue__gradient" />
       
         <div className="flex flex-col items-center md:items-start md:text-left xl:w-1/2 xl:pl-12">
