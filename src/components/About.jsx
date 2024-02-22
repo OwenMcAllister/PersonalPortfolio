@@ -13,7 +13,7 @@ const About = () => {
   }, []);
 
   return (
-    <section id="about" className={`flex flex-col justify-center mt-10 items-center ${styles.paddingY}`}>
+    <section id="about" className={`flex flex-col justify-center mt-20 items-center ${styles.paddingY}`}>
       <div style={{ position: 'relative' }}>
         <h1 className="text-center font-semibold text-white font-poppins text-[45px]">
           <span style={{ color: '#53dbfd' }}>
