@@ -28,7 +28,7 @@ const Hero = () => (
       </div>
       
     </div>
-    <div style={{ height: '100px' }}></div>
+    <div style={{ height: 200px' }}></div>
   </section>
 )
 
