@@ -20,7 +20,7 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="sm:hidden flex flex-1 justify-end items-center">
-        <img src={toggle ? "/src/assets/close.svg" : "/src/assets/menu.svg"}
+        <img src={toggle ? "/close.svg" : "/menu.svg"}
         alt="menu"
         className="w-[28px] h-[28px]
         object-contain"
