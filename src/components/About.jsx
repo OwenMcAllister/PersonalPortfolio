@@ -26,8 +26,8 @@ const About = () => {
         </span>
       </div>
 
-      <div className="relative flex flex-col md:flex-row justify-left items-center w-full">
-        <img src="/racing.png" className="w-full mt-20 h-auto relative z-[5]"/>
+      <div className="relative flex flex-col md:flex-row justify-left items-center">
+        <img src="/racing.png" className="w-[75%] mt-20 h-auto relative z-[5]"/>
         <div className="absolute z-0 w-1/2 h-full top-0 blue__gradient" />
 
         <div className="flex flex-col items-center md:items-start md:text-left">
