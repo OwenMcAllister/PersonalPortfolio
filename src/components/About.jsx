@@ -27,7 +27,7 @@ const About = () => {
       </div>
 
       <div className="relative flex flex-col md:flex-row justify-left items-center w-full max-w-screen-xl">
-        <img src="/src/assets/racing.png" className="w-full mt-20 h-auto relative z-[5]"/>
+        <img src="/racing.png" className="w-full mt-20 h-auto relative z-[5]"/>
         <div className="absolute z-0 w-1/2 h-full top-0 blue__gradient" />
 
         <div className="flex flex-col items-center md:items-start md:text-left">
@@ -85,7 +85,7 @@ const About = () => {
         </div>
 
       <div className=" md:ml-4 md:order-2">
-        <img src="/src/assets/climbing.png" className="w-[85%] mt-20 h-auto relative z-[5]"/>
+        <img src="/climbing.png" className="w-[85%] mt-20 h-auto relative z-[5]"/>
         <div className="absolute z-0 w-1/2 h-full top-0 blue__gradient" />
       </div>
       </div>
